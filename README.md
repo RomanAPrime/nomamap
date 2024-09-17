@@ -21,6 +21,8 @@ nomamap.init({
   fontWeight: 'bold'
 });
 
+
+
 ## Добавление маркеров на карту
 nomamap.setMarkers(Array, Object)
 ### Параметры:
@@ -35,12 +37,16 @@ nomamap.setMarkers([
   lng: -80.243307
 });
 
+
+
 ## Переход к координатам
 nomamap.mapPanTo(Object)
 ### Параметры:
 Object: Объект с координатами для перемещения карты. Формат: { lng: Number, lat: Number }.
 ### Пример использования:
 nomamap.mapPanTo({ lng: -80.243307, lat: 25.882813 });
+
+
 
 ## Уничтожение карты
 nomamap.destroy()
