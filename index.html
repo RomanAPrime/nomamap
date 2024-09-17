@@ -11,37 +11,37 @@
   <meta name="keywords" content="">
   <meta name="robots" content="noindex, nofollow">
 </head>
-<body style="margin:0;">
+<body style="margin:0;max-width:100vw;width:100vw">
       <div class="wrapper" id="wrapper" data-title="noma map" data-lang="en" data-router-view="nomamap"
         style="min-height: 100vh;padding-left:15px;padding-right:15px;background:#0D0D0D;">
         <div style="display: flex;flex-direction:column;">
           <div style="max-width:1199px;width:100%;height:781px;margin:0 auto;border:1px solid gold;margin-bottom:20px;"
             id="noma-map"> </div> <button
-            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;"
+            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;max-width:100%;overflow:auto;"
             onclick="nomamap.init({ mapId : 'noma-map', apiKey : 'AIzaSyAtmwmIzGB2cCX6ppzFF5ouBdkCHwnHOec', apiMapId : '', mapCenter : { lng: -80.3246984796617, lat: 25.808056599935405 }, zoom : '10.5', fontFamily : 'Roboto', fontWight : 700, })"
             type="button"><b style="margin-right: 10px;">init map without apiMapId</b><br>
             <pre> <code style="color:#2C66B0;"> nomamap.init({ mapId : 'noma-map', apiKey : 'AIzaSyAtmwmIzGB2cCX6ppzFF5ouBdkCHwnHOec', apiMapId : '', mapCenter : { lng: -80.3246984796617, lat: 25.808056599935405 }, fontFamily : 'Roboto', fontWight : 700, })</code></pre>
           </button> <button
-            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;"
+            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;max-width:100%;overflow:auto;"
             onclick="nomamap.init({ mapId : 'noma-map', apiKey : 'AIzaSyAtmwmIzGB2cCX6ppzFF5ouBdkCHwnHOec', apiMapId : 'DEMO_MAP_ID', mapCenter : { lng: -80.3246984796617, lat: 25.808056599935405 }, zoom : '10.5', fontFamily : 'Roboto', fontWight : 700, })"
             type="button"><b style="margin-right: 10px;">init map </b>
             <pre><code style="color:#2C66B0;"> nomamap.init({ mapId : 'noma-map', apiKey : 'AIzaSyAtmwmIzGB2cCX6ppzFF5ouBdkCHwnHOec', apiMapId : 'DEMO_MAP_ID', mapCenter : { lng: -80.3246984796617, lat: 25.808056599935405 }, zoom : '10.5', fontFamily : 'Roboto', fontWight : 700, })</code></pre>
           </button> <button
-            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;"
+            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;max-width:100%;overflow:auto;"
             onclick="nomamap.setMarkers([{ lng: -80.29010600582124, lat:25.91972790854794,name:'test' },{ lng: -80.27328319141557, lat: 25.933313753308866,name:'test 2' },{ lng: -80.30692882022689, lat: 25.87432748550427,name:'test 3' }])"
             type="button"><b style="margin-right: 10px;">Set markers </b>
             <pre><code style="color:#2C66B0;">nomamap.setMarkers([{ lng: -80.3246984796617, lat: 25.808056599935405,name:'test' },{ lng: -80.3246984796615, lat: 25.808056599935402,name:'test 2' },{ lng: -80.3246984796612, lat: 25.808056599935401,name:'test 3' }])</code></pre>
           </button> <button
-            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;"
+            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;max-width:100%;overflow:auto;"
             onclick="nomamap.setMarkers([{ lng: -80.30644104166076, lat:25.87585921966023,name:'test' },{ lng: -80.28328676166751, lat: 25.88532213880932,name:'test 2' },{ lng: -80.28616212977126, lat:25.872999771191022,name:'test 3' },{ lng:-80.26875858598548, lat:25.871365769561663,name:'test 4' },{ lng:-80.2883564896399, lat:25.85012169223245 ,name:'test 5' },{ lng:-80.2360701907009, lat:25.872182773201285 ,name:'test 6' },{ lng:-80.21473193140275, lat:25.907853087536548 ,name:'test 7' }],{lat:25.88281279986754, lng:-80.24330700542804})"
             type="button"><b style="margin-right: 10px;">Set markers 2 + map move to</b>
             <pre><code style="color:#2C66B0;">nomamap.setMarkers([{ lng: -80.30644104166076, lat:25.87585921966023,name:'test' },{ lng: -80.28328676166751, lat: 25.88532213880932,name:'test 2' },{ lng: -80.28616212977126, lat:25.872999771191022,name:'test 3' },{ lng:-80.26875858598548, lat:25.871365769561663,name:'test 4' },{ lng:-80.2883564896399, lat:25.85012169223245 ,name:'test 5' },{ lng:-80.2360701907009, lat:25.872182773201285 ,name:'test 6' },{ lng:-80.21473193140275, lat:25.907853087536548 ,name:'test 7' }],{lat:25.88281279986754, lng:-80.24330700542804})</code></pre>
           </button> <button
-            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;"
+            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;max-width:100%;overflow:auto;"
             onclick="nomamap.mapPanTo({lat:25.88281279986756, lng:-80.24330700542807})"><b>map move to</b>
             <pre><code style="color:#2C66B0;">nomamap.mapPanTo({lat:25.88281279986756, lng:-80.24330700542807})</code></pre>
           </button> <button
-            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;"
+            style="margin-bottom: 10px;text-align:left;display:block;border:1px solid gold;background:#0D0D0D;color:gold;padding:10px;border-radius:16px;max-width:100%;overflow:auto;"
             onclick="nomamap.destroy()"><b style="margin-right: 10px;">destroy map</b>
             <pre><code style="color:#2C66B0;">nomamap.destroy()</code></pre>
           </button>
